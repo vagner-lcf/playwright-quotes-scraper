@@ -1,0 +1,49 @@
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Python & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.sqldb
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.*
+!.env.example     # Allow committing an example template file
+*.pem
+*.key
+secrets.json
+credentials.json
+*key*.json
+client_secret*.json
+
+# ==========================================
+# IDEs & Developer Tools
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.log
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# ==========================================
+# Data Outputs & Testing Cache
+# ==========================================
+data/
+.pytest_cache/
