@@ -27,7 +27,7 @@ Uma leve pipeline ETL (Extract, Transform, Load) em Python para realizar scrapin
 
 Clone o repositório e entre na pasta do projeto:
 ```bash
-git clone [https://github.com/SEU_USUARIO/playwright-quotes-scraper.git](https://github.com/SEU_USUARIO/playwright-quotes-scraper.git)
+git clone [https://github.com/vagner-lcf/playwright-quotes-scraper.git](https://github.com/vagner-lcf/playwright-quotes-scraper.git)
 cd playwright-quotes-scraper
 ```
 
@@ -62,7 +62,7 @@ python main.py
 
 Os conjuntos de dados processados serão gravados no diretório `data/`:
 
-- `data_aaaa-mm-dd.csv` — CSV em `UTF-8-sig` para perfeita compatibilidade com Excel e Power BI.
+- `data_aaaa-mm-dd.csv` — CSV em `UTF-8-sig` para compatibilidade com Excel e Power BI.
 
 Dica: abra a pasta após a execução para verificar os arquivos gerados:
 

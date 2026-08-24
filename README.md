@@ -27,7 +27,7 @@ A lightweight Python ETL (Extract, Transform, Load) pipeline for automated and r
 
 Clone the repository and enter the project folder:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/playwright-quotes-scraper.git](https://github.com/YOUR_USERNAME/playwright-quotes-scraper.git)
+git clone [https://github.com/vagner-lcf/playwright-quotes-scraper.git](https://github.com/vagner-lcf/playwright-quotes-scraper.git)
 cd playwright-quotes-scraper
 ```
 
@@ -62,7 +62,7 @@ python main.py
 
 The processed datasets will be saved in the `data/` directory:
 
-- `data_yyyy-mm-dd.csv` — CSV encoded in `UTF-8-sig` for seamless compatibility with Excel and Power BI.
+- `data_yyyy-mm-dd.csv` — CSV encoded in `UTF-8-sig` for compatibility with Excel and Power BI.
 
 Tip: open the folder after execution to inspect the generated files:
 
@@ -84,7 +84,7 @@ Execute a suíte de testes com `pytest`:
 python -m pytest
 ```
 
-## Estrutura do projeto
+## Project Structure
 
 ```
 playwright-quotes-scraper/
